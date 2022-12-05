@@ -9,7 +9,7 @@
       "request": "launch",
       "name": "Launch Program",
       "skipFiles": ["<node_internals>/**"],
-      "args": ["-p", "1-2", "-i", "input/test.1.1.txt"],
+      "args": ["-p", "3-2", "-i", "input/test.3.1.txt", "-v"],
       "program": "advent.js"
     }
   ]

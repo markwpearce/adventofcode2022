@@ -1,5 +1,5 @@
 module.exports = function log(...messages) {
-  if (program.verbose) {
+  if (program.opts().verbose) {
     console.log(...messages);
   }
 }
