@@ -62,6 +62,13 @@ class LetterDay extends Day {
   }
 }
 
+
+class DigitsDay extends Day {
+  parseLine(line) {
+    return line.split("").map(x => parseInt(x, 10));
+  }
+}
+
 class CSVDay extends Day {
   parseLine(line) {
     return line.split(',');
@@ -80,4 +87,4 @@ class NoInputDay extends Day {
   }
 }
 
-module.exports = { Day, NumberDay, LetterDay, CSVDay, CSVNumberDay, NoInputDay };
+module.exports = { Day, NumberDay, LetterDay, CSVDay, CSVNumberDay, NoInputDay, DigitsDay };
