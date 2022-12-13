@@ -43,6 +43,7 @@ class Day {
     return line;
   }
 
+
   run(linesArray) {
     throw new Error('No puzzle run() function defined')
   }
